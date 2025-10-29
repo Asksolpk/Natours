@@ -1,0 +1,32 @@
+// Import Abstracts scss files
+@import "abstracts/variables";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+
+// Import Layouts
+@import "layout/header";
+@import "layout/grid";
+@import "layout/footer";
+@import "layout/navigation";
+
+//Import Pages
+@import "pages/home.scss";
+
+// Import base css file
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilitties";
+
+//import components
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/form";
+@import "components/popup";
+
+
+
